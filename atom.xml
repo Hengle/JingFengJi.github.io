@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>JingFengJi</title>
+  
+  <subtitle>欢迎来到我的博客</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://www.jingfengji.tech/"/>
+  <updated>2020-07-30T14:59:56.931Z</updated>
+  <id>https://www.jingfengji.tech/</id>
+  
+  <author>
+    <name>JingFengJi</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Unity编辑器拓展之三十二:关于多选中Preview绘制探究</title>
+    <link href="https://www.jingfengji.tech/2020/07/30/unity-bian-ji-qi-tuo-zhan-zhi-san-shi-er-guan-yu-duo-xuan-zhong-preview-hui-zhi-tan-jiu/"/>
+    <id>https://www.jingfengji.tech/2020/07/30/unity-bian-ji-qi-tuo-zhan-zhi-san-shi-er-guan-yu-duo-xuan-zhong-preview-hui-zhi-tan-jiu/</id>
+    <published>2020-07-30T13:50:11.000Z</published>
+    <updated>2020-07-30T14:59:56.931Z</updated>
+    
+    <summary type="html">
+    
+      &lt;div class=&quot;note primary no-icon&quot;&gt;
+            &lt;p&gt;本文介绍在Unity中多选Object时，Preview视图的绘制，欢迎访问😁&lt;/p&gt;
+          &lt;/div&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>GameFramework框架源码解读（二）：Setting</title>
+    <link href="https://www.jingfengji.tech/2020/07/20/gameframework-kuang-jia-yuan-ma-jie-du-er-setting/"/>
+    <id>https://www.jingfengji.tech/2020/07/20/gameframework-kuang-jia-yuan-ma-jie-du-er-setting/</id>
+    <published>2020-07-20T14:23:51.000Z</published>
+    <updated>2020-07-20T15:02:52.572Z</updated>
+    
+    <summary type="html">
+    
+      &lt;div class=&quot;note primary no-icon&quot;&gt;
+            &lt;p&gt;GameFramework框架源码解读Setting组件，欢迎访问😂&lt;/p&gt;
+          &lt;/div&gt;
+    
+    </summary>
+    
+    
+      <category term="Unity" scheme="https://www.jingfengji.tech/categories/Unity/"/>
+    
+      <category term="GameFramework框架" scheme="https://www.jingfengji.tech/categories/Unity/GameFramework%E6%A1%86%E6%9E%B6/"/>
+    
+    
+      <category term="GameFramework框架源码解读" scheme="https://www.jingfengji.tech/tags/GameFramework%E6%A1%86%E6%9E%B6%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[UIElement入门]:4.自定义元素</title>
+    <link href="https://www.jingfengji.tech/2020/05/17/uielement-ru-men-4-zi-ding-yi-yuan-su/"/>
+    <id>https://www.jingfengji.tech/2020/05/17/uielement-ru-men-4-zi-ding-yi-yuan-su/</id>
+    <published>2020-05-17T06:00:19.000Z</published>
+    <updated>2020-05-17T07:37:06.691Z</updated>
+    
+    <summary type="html">
+    
+      &lt;div class=&quot;note primary no-icon&quot;&gt;
+            &lt;p&gt;本系列文章介绍UIElement知识点，欢迎访问😉&lt;/p&gt;
+          &lt;/div&gt;
+    
+    </summary>
+    
+    
+      <category term="Unity" scheme="https://www.jingfengji.tech/categories/Unity/"/>
+    
+      <category term="UIElement" scheme="https://www.jingfengji.tech/categories/Unity/UIElement/"/>
+    
+    
+      <category term="UIElement" scheme="https://www.jingfengji.tech/tags/UIElement/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[UIElement入门]:3.Layout Engine</title>
+    <link href="https://www.jingfengji.tech/2020/05/13/uielement-ru-men-3-layout-engine/"/>
+    <id>https://www.jingfengji.tech/2020/05/13/uielement-ru-men-3-layout-engine/</id>
+    <published>2020-05-13T14:02:35.000Z</published>
+    <updated>2020-05-17T07:32:37.293Z</updated>
+    
+    <summary type="html">
+    
+      &lt;div class=&quot;note primary no-icon&quot;&gt;
+            &lt;p&gt;本系列文章介绍UIElement知识点，欢迎访问😉&lt;/p&gt;
+          &lt;/div&gt;
+    
+    </summary>
+    
+    
+      <category term="Unity" scheme="https://www.jingfengji.tech/categories/Unity/"/>
+    
+      <category term="UIElement" scheme="https://www.jingfengji.tech/categories/Unity/UIElement/"/>
+    
+    
+      <category term="UIElement" scheme="https://www.jingfengji.tech/tags/UIElement/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[UIElement入门]:2.UQuery介绍</title>
+    <link href="https://www.jingfengji.tech/2020/05/12/uielement-ru-men-2-uquery-jie-shao/"/>
+    <id>https://www.jingfengji.tech/2020/05/12/uielement-ru-men-2-uquery-jie-shao/</id>
+    <published>2020-05-12T14:45:44.000Z</published>
+    <updated>2020-05-17T07:32:42.285Z</updated>
+    
+    <summary type="html">
+    
+      &lt;div class=&quot;note primary no-icon&quot;&gt;
+            &lt;p&gt;本系列文章介绍UIElement知识点，欢迎访问😉&lt;/p&gt;
+          &lt;/div&gt;
+    
+    </summary>
+    
+    
+      <category term="Unity" scheme="https://www.jingfengji.tech/categories/Unity/"/>
+    
+      <category term="UIElement" scheme="https://www.jingfengji.tech/categories/Unity/UIElement/"/>
+    
+    
+      <category term="UIElement" scheme="https://www.jingfengji.tech/tags/UIElement/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[UIElement入门]:1.UXML元素介绍</title>
+    <link href="https://www.jingfengji.tech/2020/05/11/uielement-ru-men-1-uxml-yuan-su-jie-shao/"/>
+    <id>https://www.jingfengji.tech/2020/05/11/uielement-ru-men-1-uxml-yuan-su-jie-shao/</id>
+    <published>2020-05-11T00:17:10.000Z</published>
+    <updated>2020-05-17T07:32:46.456Z</updated>
+    
+    <summary type="html">
+    
+      &lt;div class=&quot;note primary no-icon&quot;&gt;
+            &lt;p&gt;本系列文章介绍UIElement知识点，欢迎访问😉&lt;/p&gt;
+          &lt;/div&gt;
+    
+    </summary>
+    
+    
+      <category term="Unity" scheme="https://www.jingfengji.tech/categories/Unity/"/>
+    
+      <category term="UIElement" scheme="https://www.jingfengji.tech/categories/Unity/UIElement/"/>
+    
+    
+      <category term="UIElement" scheme="https://www.jingfengji.tech/tags/UIElement/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[UIElement入门]:0.UIElement EditorWindow简单介绍</title>
+    <link href="https://www.jingfengji.tech/2020/05/10/uielement-ru-men-0-uielement-jian-dan-jie-shao/"/>
+    <id>https://www.jingfengji.tech/2020/05/10/uielement-ru-men-0-uielement-jian-dan-jie-shao/</id>
+    <published>2020-05-10T06:19:42.000Z</published>
+    <updated>2020-05-17T07:32:50.271Z</updated>
+    
+    <summary type="html">
+    
+      &lt;div class=&quot;note primary no-icon&quot;&gt;
+            &lt;p&gt;本系列文章介绍UIElement知识点，欢迎访问😉&lt;/p&gt;
+          &lt;/div&gt;
+    
+    </summary>
+    
+    
+      <category term="Unity" scheme="https://www.jingfengji.tech/categories/Unity/"/>
+    
+      <category term="UIElement" scheme="https://www.jingfengji.tech/categories/Unity/UIElement/"/>
+    
+    
+      <category term="UIElement" scheme="https://www.jingfengji.tech/tags/UIElement/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Unity编辑器拓展之三十一:获取PlayerPrefs所有键值对</title>
+    <link href="https://www.jingfengji.tech/2020/05/05/unity-bian-ji-qi-tuo-zhan-zhi-san-shi-yi-huo-qu-playerprefs-suo-you-jian-zhi-dui/"/>
+    <id>https://www.jingfengji.tech/2020/05/05/unity-bian-ji-qi-tuo-zhan-zhi-san-shi-yi-huo-qu-playerprefs-suo-you-jian-zhi-dui/</id>
+    <published>2020-05-05T06:09:52.000Z</published>
+    <updated>2020-05-05T06:52:51.051Z</updated>
+    
+    <summary type="html">
+    
+      &lt;div class=&quot;note primary no-icon&quot;&gt;
+            &lt;p&gt;本文介绍如何在Editor下获取PlayerPrefs所有键值对，欢迎访问😁&lt;/p&gt;
+          &lt;/div&gt;
+    
+    </summary>
+    
+    
+      <category term="Unity" scheme="https://www.jingfengji.tech/categories/Unity/"/>
+    
+      <category term="Unity编辑器拓展" scheme="https://www.jingfengji.tech/categories/Unity/Unity%E7%BC%96%E8%BE%91%E5%99%A8%E6%8B%93%E5%B1%95/"/>
+    
+    
+      <category term="PlayerPrefs" scheme="https://www.jingfengji.tech/tags/PlayerPrefs/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Unity接入Facebook生成keyhash</title>
+    <link href="https://www.jingfengji.tech/2020/05/02/unity-jie-ru-facebook-sheng-cheng-keyhash/"/>
+    <id>https://www.jingfengji.tech/2020/05/02/unity-jie-ru-facebook-sheng-cheng-keyhash/</id>
+    <published>2020-05-02T14:58:36.000Z</published>
+    <updated>2020-05-03T01:08:35.715Z</updated>
+    
+    <summary type="html">
+    
+      记录如何在Unity工程接入Facebook SDK时生成keyhash
+    
+    </summary>
+    
+    
+      <category term="Unity" scheme="https://www.jingfengji.tech/categories/Unity/"/>
+    
+    
+      <category term="Facebook keyhash" scheme="https://www.jingfengji.tech/tags/Facebook-keyhash/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Unity每天一个小技巧-Image组件转换RawImage组件</title>
+    <link href="https://www.jingfengji.tech/2020/05/02/unity-mei-tian-yi-ge-xiao-ji-qiao-image-zu-jian-ti-huan-cheng-rawimage-zu-jian/"/>
+    <id>https://www.jingfengji.tech/2020/05/02/unity-mei-tian-yi-ge-xiao-ji-qiao-image-zu-jian-ti-huan-cheng-rawimage-zu-jian/</id>
+    <published>2020-05-02T07:02:28.000Z</published>
+    <updated>2020-05-02T07:13:20.137Z</updated>
+    
+    <summary type="html">
+    
+      &lt;div class=&quot;note primary no-icon&quot;&gt;
+            &lt;p&gt;Image组件转换为RawImage组件，方便快捷~&lt;/p&gt;
+          &lt;/div&gt;
+    
+    </summary>
+    
+    
+      <category term="Unity" scheme="https://www.jingfengji.tech/categories/Unity/"/>
+    
+      <category term="Unity每天一个小技巧" scheme="https://www.jingfengji.tech/categories/Unity/Unity%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Python:爬取FaceBook用户头像</title>
+    <link href="https://www.jingfengji.tech/2020/05/02/python-pa-qu-facebook-yong-hu-tou-xiang/"/>
+    <id>https://www.jingfengji.tech/2020/05/02/python-pa-qu-facebook-yong-hu-tou-xiang/</id>
+    <published>2020-05-02T01:48:10.000Z</published>
+    <updated>2020-05-03T01:08:52.024Z</updated>
+    
+    <summary type="html">
+    
+      &lt;div class=&quot;note primary no-icon&quot;&gt;
+            &lt;p&gt;使用Python批量爬取下载FB用户头像，欢迎访问😂&lt;/p&gt;
+          &lt;/div&gt;
+    
+    </summary>
+    
+    
+      <category term="Python" scheme="https://www.jingfengji.tech/categories/Python/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Unity编辑器拓展之三十：拓展UnityToolBar</title>
+    <link href="https://www.jingfengji.tech/2020/04/05/unity-bian-ji-qi-tuo-zhan-zhi-san-shi-tuo-zhan-unitytoolbar/"/>
+    <id>https://www.jingfengji.tech/2020/04/05/unity-bian-ji-qi-tuo-zhan-zhi-san-shi-tuo-zhan-unitytoolbar/</id>
+    <published>2020-04-05T13:25:30.000Z</published>
+    <updated>2020-05-08T14:40:19.443Z</updated>
+    
+    <summary type="html">
+    
+      拓展unity的ToolBar，添加自定义功能菜单
+    
+    </summary>
+    
+    
+      <category term="Unity" scheme="https://www.jingfengji.tech/categories/Unity/"/>
+    
+      <category term="Unity编辑器拓展" scheme="https://www.jingfengji.tech/categories/Unity/Unity%E7%BC%96%E8%BE%91%E5%99%A8%E6%8B%93%E5%B1%95/"/>
+    
+    
+      <category term="ToolBar" scheme="https://www.jingfengji.tech/tags/ToolBar/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo-theme-butterfly拓展友链分类</title>
+    <link href="https://www.jingfengji.tech/2020/04/05/hexo-theme-butterfly-tuo-zhan-you-lian-fen-lei/"/>
+    <id>https://www.jingfengji.tech/2020/04/05/hexo-theme-butterfly-tuo-zhan-you-lian-fen-lei/</id>
+    <published>2020-04-05T13:25:30.000Z</published>
+    <updated>2020-04-15T01:04:02.757Z</updated>
+    
+    <summary type="html">
+    
+      本文介绍Hexo-Theme-Butterfly友链分类
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://www.jingfengji.tech/categories/Hexo/"/>
+    
+      <category term="Hexo-Theme-Butterfly" scheme="https://www.jingfengji.tech/categories/Hexo/Hexo-Theme-Butterfly/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Unity每天一个小技巧-UnityPackage的导入开始、完成、取消、失败回调事件</title>
+    <link href="https://www.jingfengji.tech/2020/04/03/unity-mei-tian-yi-ge-xiao-ji-qiao-unitypackage-de-dao-ru-kai-shi-wan-cheng-qu-xiao-shi-bai-hui-diao-shi-jian/"/>
+    <id>https://www.jingfengji.tech/2020/04/03/unity-mei-tian-yi-ge-xiao-ji-qiao-unitypackage-de-dao-ru-kai-shi-wan-cheng-qu-xiao-shi-bai-hui-diao-shi-jian/</id>
+    <published>2020-04-03T13:25:30.000Z</published>
+    <updated>2020-04-15T00:35:14.203Z</updated>
+    
+    <summary type="html">
+    
+      UnityPackage的导入开始、完成、取消、失败回调事件
+    
+    </summary>
+    
+    
+      <category term="Unity" scheme="https://www.jingfengji.tech/categories/Unity/"/>
+    
+      <category term="Unity每天一个小技巧" scheme="https://www.jingfengji.tech/categories/Unity/Unity%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+    
+    
+      <category term="UnityPackage" scheme="https://www.jingfengji.tech/tags/UnityPackage/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Unity之SpriteAtlas详解</title>
+    <link href="https://www.jingfengji.tech/2020/03/29/unity-zhi-spriteatlas-xiang-jie/"/>
+    <id>https://www.jingfengji.tech/2020/03/29/unity-zhi-spriteatlas-xiang-jie/</id>
+    <published>2020-03-29T13:25:30.000Z</published>
+    <updated>2020-04-15T00:29:18.472Z</updated>
+    
+    <summary type="html">
+    
+      SpriteAtlas详细介绍
+    
+    </summary>
+    
+    
+      <category term="Unity" scheme="https://www.jingfengji.tech/categories/Unity/"/>
+    
+      <category term="SpriteAtlas" scheme="https://www.jingfengji.tech/categories/Unity/SpriteAtlas/"/>
+    
+    
+      <category term="SpriteAtlas详解" scheme="https://www.jingfengji.tech/tags/SpriteAtlas%E8%AF%A6%E8%A7%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>UnityTips——Unity小技巧集合</title>
+    <link href="https://www.jingfengji.tech/2019/12/21/unitytips-unity-xiao-ji-qiao-ji-he/"/>
+    <id>https://www.jingfengji.tech/2019/12/21/unitytips-unity-xiao-ji-qiao-ji-he/</id>
+    <published>2019-12-21T13:25:30.000Z</published>
+    <updated>2020-06-10T14:34:38.732Z</updated>
+    
+    <summary type="html">
+    
+      Unity小技巧集合
+    
+    </summary>
+    
+    
+      <category term="Unity" scheme="https://www.jingfengji.tech/categories/Unity/"/>
+    
+      <category term="UnityTips" scheme="https://www.jingfengji.tech/categories/Unity/UnityTips/"/>
+    
+    
+      <category term="UnityTips" scheme="https://www.jingfengji.tech/tags/UnityTips/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GameFramework框架源码解读（一）：Editor篇</title>
+    <link href="https://www.jingfengji.tech/2019/10/26/gameframework-kuang-jia-yuan-ma-jie-du-yi-editor-pian/"/>
+    <id>https://www.jingfengji.tech/2019/10/26/gameframework-kuang-jia-yuan-ma-jie-du-yi-editor-pian/</id>
+    <published>2019-10-26T13:25:30.000Z</published>
+    <updated>2020-04-15T01:04:39.574Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;笔记目录&lt;br&gt;@[toc]&lt;/p&gt;
+&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Unity" scheme="https://www.jingfengji.tech/categories/Unity/"/>
+    
+      <category term="GameFramework框架" scheme="https://www.jingfengji.tech/categories/Unity/GameFramework%E6%A1%86%E6%9E%B6/"/>
+    
+    
+      <category term="GameFramework框架源码解读" scheme="https://www.jingfengji.tech/tags/GameFramework%E6%A1%86%E6%9E%B6%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Unity编辑器拓展之二十九：资源弱引用文件选择器</title>
+    <link href="https://www.jingfengji.tech/2019/09/27/unity-bian-ji-qi-tuo-zhan-zhi-er-shi-jiu-zi-yuan-ruo-yin-yong-wen-jian-xuan-ze-qi/"/>
+    <id>https://www.jingfengji.tech/2019/09/27/unity-bian-ji-qi-tuo-zhan-zhi-er-shi-jiu-zi-yuan-ruo-yin-yong-wen-jian-xuan-ze-qi/</id>
+    <published>2019-09-27T13:25:30.000Z</published>
+    <updated>2020-04-15T00:54:10.777Z</updated>
+    
+    <summary type="html">
+    
+      使用AdvancedDropdown开发资源文件选择器
+    
+    </summary>
+    
+    
+      <category term="Unity" scheme="https://www.jingfengji.tech/categories/Unity/"/>
+    
+      <category term="Unity编辑器拓展" scheme="https://www.jingfengji.tech/categories/Unity/Unity%E7%BC%96%E8%BE%91%E5%99%A8%E6%8B%93%E5%B1%95/"/>
+    
+    
+      <category term="资源弱引用文件选择器" scheme="https://www.jingfengji.tech/tags/%E8%B5%84%E6%BA%90%E5%BC%B1%E5%BC%95%E7%94%A8%E6%96%87%E4%BB%B6%E9%80%89%E6%8B%A9%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python工具之一：九宫格图片极致裁剪</title>
+    <link href="https://www.jingfengji.tech/2019/08/15/python-gong-ju-zhi-yi-jiu-gong-ge-tu-pian-ji-zhi-cai-jian/"/>
+    <id>https://www.jingfengji.tech/2019/08/15/python-gong-ju-zhi-yi-jiu-gong-ge-tu-pian-ji-zhi-cai-jian/</id>
+    <published>2019-08-15T13:25:30.000Z</published>
+    <updated>2020-04-15T01:03:25.444Z</updated>
+    
+    <summary type="html">
+    
+      本文介绍使用Python处理九宫格图片极致裁剪
+    
+    </summary>
+    
+    
+      <category term="Python" scheme="https://www.jingfengji.tech/categories/Python/"/>
+    
+    
+      <category term="九宫格图片极致裁剪" scheme="https://www.jingfengji.tech/tags/%E4%B9%9D%E5%AE%AB%E6%A0%BC%E5%9B%BE%E7%89%87%E6%9E%81%E8%87%B4%E8%A3%81%E5%89%AA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Unity编辑器拓展之二十八：Sprite Border自动设置工具</title>
+    <link href="https://www.jingfengji.tech/2019/08/13/unity-bian-ji-qi-tuo-zhan-zhi-er-shi-ba-sprite-border-zi-dong-she-zhi-gong-ju/"/>
+    <id>https://www.jingfengji.tech/2019/08/13/unity-bian-ji-qi-tuo-zhan-zhi-er-shi-ba-sprite-border-zi-dong-she-zhi-gong-ju/</id>
+    <published>2019-08-13T13:25:30.000Z</published>
+    <updated>2020-04-15T00:55:00.545Z</updated>
+    
+    <summary type="html">
+    
+      本文介绍Sprite Border自动设置工具
+    
+    </summary>
+    
+    
+      <category term="Unity" scheme="https://www.jingfengji.tech/categories/Unity/"/>
+    
+      <category term="Unity编辑器拓展" scheme="https://www.jingfengji.tech/categories/Unity/Unity%E7%BC%96%E8%BE%91%E5%99%A8%E6%8B%93%E5%B1%95/"/>
+    
+    
+      <category term="SpriteBorder自动设置" scheme="https://www.jingfengji.tech/tags/SpriteBorder%E8%87%AA%E5%8A%A8%E8%AE%BE%E7%BD%AE/"/>
+    
+  </entry>
+  
+</feed>

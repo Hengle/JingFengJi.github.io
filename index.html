@@ -1,165 +1,181 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta name="generator" content="Hexo 3.8.0"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><meta name="author" content="Mr.Ding"><meta name="renderer" content="webkit"><meta name="copyright" content="Mr.Ding"><meta name="keywords" content="JingFengJi"><meta name="description" content="null"><meta name="Cache-Control" content="no-cache"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><title>Mr.Ding's Blog</title><link rel="stylesheet" href="/css/style.css?v=2018.7.9"><link rel="stylesheet" href="/css/animation.css?v=2018.7.9"><link rel="icon" href="/img/assets/favicon_32x32.ico"><link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css?version=1.5.6"><!-- scripts--><script>(function( w ){
-  "use strict";
-  // rel=preload support test
-  if( !w.loadCSS ){
-    w.loadCSS = function(){};
-  }
-  // define on the loadCSS obj
-  var rp = loadCSS.relpreload = {};
-  // rel=preload feature support test
-  // runs once and returns a function for compat purposes
-  rp.support = (function(){
-    var ret;
-    try {
-      ret = w.document.createElement( "link" ).relList.supports( "preload" );
-    } catch (e) {
-      ret = false;
-    }
-    return function(){
-      return ret;
-    };
-  })();
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>JingFengJi - 欢迎来到我的博客</title><meta name="description"><meta name="author" content="JingFengJi"><meta name="copyright" content="JingFengJi"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.png"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="dns-prefetch" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="https://hm.baidu.com"/><link rel="dns-prefetch" href="https://hm.baidu.com"/><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="crossorigin"/><link rel="dns-prefetch" href="https://fonts.googleapis.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="dns-prefetch" href="//busuanzi.ibruce.info"/><meta name="google-site-verification" content="Ypd5tFC52Ol8gnGpLTfM6Hk5UEK-oQqWy0rli4sP-Go"/><meta name="twitter:card" content="summary"><meta name="twitter:title" content="JingFengJi"><meta name="twitter:description"><meta name="twitter:image" content="https://www.jingfengji.tech/img/avatar.jpg"><meta property="og:type" content="website"><meta property="og:title" content="JingFengJi"><meta property="og:url" content="https://www.jingfengji.tech/"><meta property="og:site_name" content="JingFengJi"><meta property="og:description"><meta property="og:image" content="https://www.jingfengji.tech/img/avatar.jpg"><meta property="article:published_time" content="2020-07-30T15:00:32.798Z"><meta property="article:modified_time" content="2020-07-30T15:00:32.798Z"><script src="https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js"></script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css"><link rel="canonical" href="https://www.jingfengji.tech/"><script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(adsbygoogle = window.adsbygoogle || []).push({
+  google_ad_client: 'ca-pub-8185208134188964',
+  enable_page_level_ads: 'true'
+});</script><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?2785b42567df2a3bb7b25530a40930ed";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容:${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"cookieDomain":"http://www.jingfengji.tech/","msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime_unit: '天',
+  runtime: true,
+  copyright: {"languages":{"author":"作者: JingFengJi","link":"链接: ","source":"来源: JingFengJi","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: {"bookmark":{"message_prev":"按","message_next":"键将本页加入书签"},"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#2d3035","position":"bottom-center"},
+  baiduPush: false,
+  highlightCopy: true,
+  highlightLang: true,
+  highlightShrink: 'false',
+  isFontAwesomeV5: false,
+  isPhotoFigcaption: true,
+  islazyload: true,
+  isanchor: false
+  
+}</script><script>var GLOBAL_CONFIG_SITE = { 
+  isPost: false,
+  isHome: true,
+  isSidebar: false  
+  }</script><noscript><style>
+#page-header {
+  opacity: 1
+}
+.justified-gallery img{
+  opacity: 1
+}
+</style></noscript><!-- start webpushr tracking code --> <script>(function(w,d, s, id) {if(typeof(w.webpushr)!=='undefined') return;w.webpushr=w.webpushr||function(){(w.webpushr.q=w.webpushr.q||[]).push(arguments)};var js, fjs = d.getElementsByTagName(s)[0];js = d.createElement(s); js.id = id;js.src = "https://cdn.webpushr.com/app.min.js";fjs.parentNode.appendChild(js);}(window,document, 'script', 'webpushr-jssdk'));webpushr('init','BGrxc0vPoALvzHxkgS89T80UvkMlJkgJovvsNdJJS6Cs2-eEyUAVyWcUYs8YCHcUSwbIwI-QnTzHpVX4FLzyKBk');</script><!-- end webpushr tracking code --><meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="JingFengJi" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="/img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">82</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">64</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">17</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/contact/"><i class="fa-fw fa fa-coffee"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page" href="/sponsor/"><i class="fa-fw fa fa-heart"></i><span> 赞助墙</span></a></div><div class="menus_item"><a class="site-page" href="/tools/"><i class="fa-fw fa fa-link"></i><span> 工具箱</span></a></div></div></div></div><div id="body-wrap"><div class="full_page" id="nav" style="background-image: url(/img/banner/0.jpg)"><div id="page-header"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name" href="/">JingFengJi</a></span><span class="pull_right menus"><div id="search_button"><a class="site-page social-icon search"><i class="fa fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/contact/"><i class="fa-fw fa fa-coffee"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page" href="/sponsor/"><i class="fa-fw fa fa-heart"></i><span> 赞助墙</span></a></div><div class="menus_item"><a class="site-page" href="/tools/"><i class="fa-fw fa fa-link"></i><span> 工具箱</span></a></div></div><span class="toggle-menu close"><a class="site-page"><i class="fa fa-bars fa-fw" aria-hidden="true"></i></a></span></span></div><div id="site-info"><h1 id="site_title">JingFengJi</h1><div id="site_subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://github.com/JingFengJi" target="_blank" title="Github"><i class="fa fa-github" aria-hidden="true"></i></a><a class="social-icon" href="mailto:18872266310@163.com" target="_blank" title="Email"><i class="fa fa-envelope" aria-hidden="true"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a></div></div><div id="scroll_down"><i class="fa fa-angle-down scroll-down-effects"></i></div></div><main class="layout_page" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2019/12/21/unitytips-unity-xiao-ji-qiao-ji-he/" title="UnityTips——Unity小技巧集合">     <img class="post_bg" data-src="/img/featureimages/5.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="UnityTips——Unity小技巧集合"></a></div><div class="recent-post-info"><a class="article-title" href="/2019/12/21/unitytips-unity-xiao-ji-qiao-ji-he/" title="UnityTips——Unity小技巧集合">UnityTips——Unity小技巧集合</a><div class="article-meta-wrap"><span class="article-meta"><i class="fa fa-thumb-tack article-meta__icon sticky"></i><span class="sticky">置顶</span><span class="article-meta__separator">|</span></span><time class="post-meta__date" title="发表于 2019-12-21 21:25:30"><i class="fa fa-calendar" aria-hidden="true"></i>2019-12-21</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/Unity/">Unity</a><i class="fa fa-angle-right" aria-hidden="true"></i><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/Unity/UnityTips/">UnityTips</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/UnityTips/">UnityTips</a></span></div><div class="content">AttributeRequiredAttribute效果图如下：当引用类型的property为空时，使用红色提示。
 
-  // if preload isn't supported, get an asynchronous load by using a non-matching media attribute
-  // then change that media back to its intended value on load
-  rp.bindMediaToggle = function( link ){
-    // remember existing media attr for ultimate state, or default to 'all'
-    var finalMedia = link.media || "all";
-
-    function enableStylesheet(){
-      link.media = finalMedia;
-    }
-
-    // bind load handlers to enable media
-    if( link.addEventListener ){
-      link.addEventListener( "load", enableStylesheet );
-    } else if( link.attachEvent ){
-      link.attachEvent( "onload", enableStylesheet );
-    }
-
-    // Set rel and non-applicable media type to start an async request
-    // note: timeout allows this to happen async to let rendering continue in IE
-    setTimeout(function(){
-      link.rel = "stylesheet";
-      link.media = "only x";
-    });
-    // also enable media after 3 seconds,
-    // which will catch very old browsers (android 2.x, old firefox) that don't support onload on link
-    setTimeout( enableStylesheet, 3000 );
-  };
-
-  // loop through link elements in DOM
-  rp.poly = function(){
-    // double check this to prevent external calls from running
-    if( rp.support() ){
-      return;
-    }
-    var links = w.document.getElementsByTagName( "link" );
-    for( var i = 0; i < links.length; i++ ){
-      var link = links[ i ];
-      // qualify links to those with rel=preload and as=style attrs
-      if( link.rel === "preload" && link.getAttribute( "as" ) === "style" && !link.getAttribute( "data-loadcss" ) ){
-        // prevent rerunning on link
-        link.setAttribute( "data-loadcss", true );
-        // bind listeners to toggle media back
-        rp.bindMediaToggle( link );
-      }
-    }
-  };
-
-  // if unsupported, run the polyfill
-  if( !rp.support() ){
-    // run once at least
-    rp.poly();
-
-    // rerun poly on an interval until onload
-    var run = w.setInterval( rp.poly, 500 );
-    if( w.addEventListener ){
-      w.addEventListener( "load", function(){
-        rp.poly();
-        w.clearInterval( run );
-      } );
-    } else if( w.attachEvent ){
-      w.attachEvent( "onload", function(){
-        rp.poly();
-        w.clearInterval( run );
-      } );
-    }
-  }
+代码如下：
+1、RequiredAttribute.cs
+12345using UnityEngine;public class RequiredAttribute : Proper ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2020/07/30/unity-bian-ji-qi-tuo-zhan-zhi-san-shi-er-guan-yu-duo-xuan-zhong-preview-hui-zhi-tan-jiu/" title="Unity编辑器拓展之三十二:关于多选中Preview绘制探究">     <img class="post_bg" data-src="/img/featureimages/24.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Unity编辑器拓展之三十二:关于多选中Preview绘制探究"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/07/30/unity-bian-ji-qi-tuo-zhan-zhi-san-shi-er-guan-yu-duo-xuan-zhong-preview-hui-zhi-tan-jiu/" title="Unity编辑器拓展之三十二:关于多选中Preview绘制探究">Unity编辑器拓展之三十二:关于多选中Preview绘制探究</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-07-30 21:50:11"><i class="fa fa-calendar" aria-hidden="true"></i>2020-07-30</time></div><div class="content">
+            本文介绍在Unity中多选Object时，Preview视图的绘制，欢迎访问😁
+          
 
 
-  // commonjs
-  if( typeof exports !== "undefined" ){
-    exports.loadCSS = loadCSS;
-  }
-  else {
-    w.loadCSS = loadCSS;
-  }
-}( typeof global !== "undefined" ? global : this ) );</script><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js" defer></script><script src="/js/main.js?v=2018.7.9" defer></script><!-- fancybox--><link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" defer></script><!-- busuanzi--><script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script></head><body><section class="profile-close" id="cxo-profile"><div class="profile-avatar"><i class="fa fa-caret-left"></i><img src="/img/assets/avatar.jpeg"></div><!--.profile-saying
-  i.fa.fa-comment
-  .saying--><div class="cxo-profile-inner"><div class="profile-name">JingFengJi</div><div class="profile-signature">for me</div><div class="friends"><div>FRIENDS</div><span><a href="https://llcat.github.io" target="_black">llcat</a></span></div><div class="read-progress"></div></div></section><header id="cxo-intro" style="height: 70vh;background-image: url(/img/intro/index-bg.png);"><nav id="cxo-intro-nav"><section><div class="intro-nav-title"><a href="/">Mr.Ding's Blog</a></div><div class="intro-nav-label-box"><a href="/">Home</a><a href="/about/">About</a><a href="/archives/">Archives</a><a href="/tags/">Tags</a></div><i class="fa fa-bars intro-nav-menu"><div class="intro-nav-drop"><a href="/">Home</a><a href="/about/">About</a><a href="/archives/">Archives</a><a href="/tags/">Tags</a></div></i><div class="clear"></div></section></nav><h1>Mr.Ding's Blog</h1><h5>Welcome to my Blog!</h5><div class="intro-social"><a class="fa fa-github" href="https://github.com/JingFengJi" target="_blank" title="github"></a></div></header><article class="cxo-up" id="cxo-content-outer"><section id="cxo-content-inner"><section id="recent-posts"><div class="recent-post-item"><div class="post-title"><a href="/2019/02/01/Unity编辑器拓展之二十四：基于Unity Node Editor、ScriptableObject的配置化新手引导系统/">Unity编辑器拓展之二十四：基于Unity Node Editor、ScriptableObject的配置化新手引导系统</a></div><div class="post-time"><i class="fa fa-table"></i><time datetime="2019-02-01T06:34:39.000Z">2019-02-01</time></div><div class="recent-post-content">
+
+            本篇文章，如果有不懂，欢迎留言~click here!
+          
+
+前言先来介绍一下本篇文章的背景，在项目中通过使用一个Scri ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2020/07/20/gameframework-kuang-jia-yuan-ma-jie-du-er-setting/" title="GameFramework框架源码解读（二）：Setting">     <img class="post_bg" data-src="/img/featureimages/2.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="GameFramework框架源码解读（二）：Setting"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/07/20/gameframework-kuang-jia-yuan-ma-jie-du-er-setting/" title="GameFramework框架源码解读（二）：Setting">GameFramework框架源码解读（二）：Setting</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-07-20 22:23:51"><i class="fa fa-calendar" aria-hidden="true"></i>2020-07-20</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/Unity/">Unity</a><i class="fa fa-angle-right" aria-hidden="true"></i><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/Unity/GameFramework%E6%A1%86%E6%9E%B6/">GameFramework框架</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/GameFramework%E6%A1%86%E6%9E%B6%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/">GameFramework框架源码解读</a></span></div><div class="content">
+            GameFramework框架源码解读Setting组件，欢迎访问😂
+          
 
 
-本文主要介绍根据一款Node Editor库开发的新手引导系统git地址如下： https://github.com/luis-l/UnityNodeEditorBase
-一、旧版新手引导做法
-GuideCheckManager负责check各种类型的引导，判断是否达到触发条件，如果达到条件，当前无引导，则直接进行引导，否则存入缓存队列中。
-GuideCheckManager注册跟引导有关的消息通知，等收到通知，做一些check工作。
-一个大步引导包含多个单线的单步引导，每个单步引导又可有check条件，如果中间某一单步引导未check通过，则打断引导。
-缺点：
-（1）配置采用CSV，可 ...</div><div class="read-more"><a class="more" href="/2019/02/01/Unity编辑器拓展之二十四：基于Unity Node Editor、ScriptableObject的配置化新手引导系统/#more">ReadMore</a></div><hr></div><div class="recent-post-item"><div class="post-title"><a href="/2018/12/22/Unity Shader编程之一：多颜色条纹背景/">Unity Shader编程之一：多颜色条纹背景</a></div><div class="post-time"><i class="fa fa-table"></i><time datetime="2018-12-22T06:53:14.000Z">2018-12-22</time></div><div class="recent-post-content">
 
-两种颜色的条纹状背景Shader &quot;Custom/Flag&quot;
-{
-    Properties
-    {
-        [PerRendererData]_MainTex (&quot;Texture&quot;, 2D) = &quot;white&quot; {}
-        _1stColor(&quot;1stColo&quot;,Color) = (0,0,0,1)
-        _2ndColor(&quot;2ndColor&quot;,Color) = (1,1,1,1)
-        _tileNum(&quot;tile num&quot ...</div><div class="read-more"><a class="more" href="/2018/12/22/Unity Shader编程之一：多颜色条纹背景/#more">ReadMore</a></div><hr></div><div class="recent-post-item"><div class="post-title"><a href="/2018/12/22/Unity编辑器拓展之二十三：基于ObjectField的FileField/">Unity编辑器拓展之二十三：基于ObjectField的FileField</a></div><div class="post-time"><i class="fa fa-table"></i><time datetime="2018-12-22T05:49:09.000Z">2018-12-22</time></div><div class="recent-post-content">
+            本篇文章，如果有不懂，欢迎留言~click here!
+          
 
-使用场景最近在做资源管理模块时，关于资源引用这方面的问题，并不想直接引用某一个asset，比如Prefab、或者sprite、material等资源，当然可以由资源管理模块统一管理，然后对业务层提供获取的接口。由业务层传入文件名、或者AssetBundleName、path之类的数据，资源管理模块内加载出来然后返回。结合ObjectFiled这个编辑器类来介绍，我们拖入某一个asset，然后序列化存储其guid和assetpath，表面上看起来是引用了该asset，实际上只是存住了guid和path（用于load，结合资源管理模块而定），guid用于绝对指向asset资源，就算路径更改，也 ...</div><div class="read-more"><a class="more" href="/2018/12/22/Unity编辑器拓展之二十三：基于ObjectField的FileField/#more">ReadMore</a></div><hr></div><div class="recent-post-item"><div class="post-title"><a href="/2018/09/09/Unity编辑器拓展之二十二：基于TexturePacker的一键打图集工具/">Unity编辑器拓展之二十二：基于TexturePacker的一键打图集工具</a></div><div class="post-time"><i class="fa fa-table"></i><time datetime="2018-09-09T05:29:04.000Z">2018-09-09</time></div><div class="recent-post-content">
+模块介绍以键值对的形式存储玩家数据，对UnityEngine.Play ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2020/05/17/uielement-ru-men-4-zi-ding-yi-yuan-su/" title="[UIElement入门]:4.自定义元素">     <img class="post_bg" data-src="/img/featureimages/20.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="[UIElement入门]:4.自定义元素"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/05/17/uielement-ru-men-4-zi-ding-yi-yuan-su/" title="[UIElement入门]:4.自定义元素">[UIElement入门]:4.自定义元素</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-05-17 14:00:19"><i class="fa fa-calendar" aria-hidden="true"></i>2020-05-17</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/Unity/">Unity</a><i class="fa fa-angle-right" aria-hidden="true"></i><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/Unity/UIElement/">UIElement</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/UIElement/">UIElement</a></span></div><div class="content">
+            本系列文章介绍UIElement知识点，欢迎访问😉
+          
 
-Unity编辑器拓展之二十二：基于TexturePacker的一键打图集工具NGUI使用TexturePacker打图集是一件频繁且费时的工作，只要美术稍一更新图片，就需要重新打图集，而且每次打图集的操作其实都是一样的重复劳动，基于此，开发工具批量打图集时很有必要的。
-使用TexturePacker打图集，会输出两个文件，一个PNG合图，一个txt图集信息文件，而到Unity中使用UIAtlas，则需要一个Material材质文件和一个Prefab预制体文件，这两个文件也由工具生成。
-鉴于项目不是从一开始就用该工具进行打图集工作的，因此这些文件的命名不具有统一的规范，因此使用一个配置文件来 ...</div><div class="read-more"><a class="more" href="/2018/09/09/Unity编辑器拓展之二十二：基于TexturePacker的一键打图集工具/#more">ReadMore</a></div><hr></div><div class="recent-post-item"><div class="post-title"><a href="/2018/08/22/Unity编辑器拓展之二十一：拓展Unity模块，打造私人工具库（二）/">Unity编辑器拓展之二十一：拓展Unity模块，打造私人工具库（二）</a></div><div class="post-time"><i class="fa fa-table"></i><time datetime="2018-08-22T15:49:57.000Z">2018-08-22</time></div><div class="recent-post-content">
 
-拓展Unity模块，打造私人工具库（二）前言：上一篇，实现了基本Unity模块拓展的功能，本篇将介绍如何通过反射来实现导入UnityPackage
-Gif示意图
-程序导入UnityPackage通过查阅UnityEditor源代码发现，UnityEditor命名空间下有个EditorWindow的子类PackageImport，该类有个静态函数ShowImportPackage如下：
-public static void ShowImportPackage(string packagePath, ImportPackageItem[] items, string packageIconPa ...</div><div class="read-more"><a class="more" href="/2018/08/22/Unity编辑器拓展之二十一：拓展Unity模块，打造私人工具库（二）/#more">ReadMore</a></div><hr></div><div class="recent-post-item"><div class="post-title"><a href="/2018/08/20/Unity编辑器拓展之二十：拓展Unity模块，打造私人工具库（一）/">Unity编辑器拓展之二十：拓展Unity模块，打造私人工具库（一）</a></div><div class="post-time"><i class="fa fa-table"></i><time datetime="2018-08-20T14:40:22.000Z">2018-08-20</time></div><div class="recent-post-content">
 
-拓展Unity模块，打造私人工具库（一）功能介绍经过平时的项目积累，使用以及自己编写的编辑器工具越来越多，有些工具在别的项目中同样用的上，但是不希望每次都重新拷贝新代码到项目中，于是就希望能够拓展Unity模块，实现自己的工具库，方便导入工具到项目中。
-通过查阅资料发现，在Unity的安装目录 Unity2017.3.1f1\Editor\Data\UnityExtensions\Unity(我的版本是2017.3.1f1)下，有一些Unity自带的模块，可以通过在该路径下放入自己的模块，就可以实现Unity新建的项目都拥有该拓展模块的功能。那么，接下来就写一个工具导入模块放入该文件夹中。 ...</div><div class="read-more"><a class="more" href="/2018/08/20/Unity编辑器拓展之二十：拓展Unity模块，打造私人工具库（一）/#more">ReadMore</a></div><hr></div><div class="recent-post-item"><div class="post-title"><a href="/2018/08/10/Unity编辑器拓展之十九：NGUI  UISprite预览图Preview拓展/">Unity编辑器拓展之十九：NGUI  UISprite预览图Preview拓展</a></div><div class="post-time"><i class="fa fa-table"></i><time datetime="2018-08-10T14:42:22.000Z">2018-08-10</time></div><div class="recent-post-content">
+            UIElement官方文档
+          
 
-NGUI UISprite预览图Preview拓展功能说明1、拓展UISprite的Preview视图，同时显示UIAtlas Texture和Sprite2、支持在UIAtlas上直接点选Sprite3、无需打开Atlas选择框和Sprite选择框两步操作
-Gif示意图
-逻辑介绍1、找到UISpriteInspector脚本，其脚本的OnPreView函数逻辑，源码如下：
-public override void OnPreviewGUI (Rect rect, GUIStyle background)
-{
-    UISprite sprite = target as UISprite ...</div><div class="read-more"><a class="more" href="/2018/08/10/Unity编辑器拓展之十九：NGUI  UISprite预览图Preview拓展/#more">ReadMore</a></div><hr></div><div class="recent-post-item"><div class="post-title"><a href="/2018/08/06/常用软件集锦/">常用软件集锦</a></div><div class="post-time"><i class="fa fa-table"></i><time datetime="2018-08-06T13:25:30.000Z">2018-08-06</time></div><div class="recent-post-content">
 
-1、图片查重文件查重，如果只是文件名或者md5码的匹配查重，功能就不全面了，尤其是图片查重。图片查重应该更侧重于图片内容相似度查重。最近项目中使用TexturePacker&amp; NGUI，发现存在一些图片重复，新人对业务逻辑不熟悉，导致图片乱放等问题，使得图片存在重复、浪费资源等。因此收集了Windows 和Mac下使用的两款图片查重软件。
-Win http://www.newrain.cn/app/info/1 
+            本系列文章使用的Unity版本为2019.3.7f1
+          
 
-支持修改相似度进行匹配查重
-MacSnapSelect软件
-官网：  https://skylum.com/snapselect pojie版请自行下载
 
-支持四个级别 ...</div><div class="read-more"><a class="more" href="/2018/08/06/常用软件集锦/#more">ReadMore</a></div><hr></div><div class="recent-post-item"><div class="post-title"><a href="/2018/08/04/Unity编辑器拓展之十八：NGUI批量替换图集工具 2.0版本/">Unity编辑器拓展之十八：NGUI批量替换图集工具 2.0版本</a></div><div class="post-time"><i class="fa fa-table"></i><time datetime="2018-08-04T14:47:41.000Z">2018-08-04</time></div><div class="recent-post-content">
+      ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2020/05/13/uielement-ru-men-3-layout-engine/" title="[UIElement入门]:3.Layout Engine">     <img class="post_bg" data-src="/img/featureimages/10.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="[UIElement入门]:3.Layout Engine"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/05/13/uielement-ru-men-3-layout-engine/" title="[UIElement入门]:3.Layout Engine">[UIElement入门]:3.Layout Engine</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-05-13 22:02:35"><i class="fa fa-calendar" aria-hidden="true"></i>2020-05-13</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/Unity/">Unity</a><i class="fa fa-angle-right" aria-hidden="true"></i><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/Unity/UIElement/">UIElement</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/UIElement/">UIElement</a></span></div><div class="content">
+            本系列文章介绍UIElement知识点，欢迎访问😉
+          
 
-Unity编辑器拓展之十五：NGUI批量替换图集工具 2.0版本1.0版本 https://blog.csdn.net/qq_26999509/article/details/81256493
 
-新增内容工具1.0版本，同事在使用过程中，发现批量替换图集时，不一定是全部都替换，这样的话，工具就没法使用了。2.0版本新增功能：对于替换图集的Sprite支持可选择性的是否替换。
-工具截图
-在之前的右下角空白区域，增加了预制体所有UISprite的列表显示，使用的TreeView编写的。
-TreeView介绍目前，TreeView我还没有单独写文字来介绍该内容，后续会更新。官方文档：  http ...</div><div class="read-more"><a class="more" href="/2018/08/04/Unity编辑器拓展之十八：NGUI批量替换图集工具 2.0版本/#more">ReadMore</a></div><hr></div><div class="recent-post-item"><div class="post-title"><a href="/2018/07/31/Unity编辑器拓展之十七：NGUI ComponentSelector增加搜索框/">Unity编辑器拓展之十七：NGUI ComponentSelector增加搜索框</a></div><div class="post-time"><i class="fa fa-table"></i><time datetime="2018-07-31T15:24:56.000Z">2018-07-31</time></div><div class="recent-post-content">
 
-NGUI ComponentSelector增加搜索框目的最近在使用NGUI，给Sprite选择图集的时候，没有搜索框要挨个找挺麻烦，因此修改一下ComponentSelector组件，增加一个搜索框，便于搜索图集
+            UIElement官方文档
+          
 
-Gif动图展示
-SearchField介绍关于SearchField介绍请看  Unity编辑器拓展之九
-代码以下代码是修改的NGUI里的ComponentSelector脚本
-private SearchField search;
-private bool isInit = false;
-private string searchStr = &quot;&quot;;
-pr ...</div><div class="read-more"><a class="more" href="/2018/07/31/Unity编辑器拓展之十七：NGUI ComponentSelector增加搜索框/#more">ReadMore</a></div><hr></div></section><nav class="cxo-page-nav"><span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/2/">NEXT &#62;</a></nav></section></article><footer id="cxo-footer-outer"><div id="cxo-footer-inner"><p class="footer-container"><span>Site by </span><a href="http://hexo.io"><span>Hexo</span></a><span> | theme </span><a href="https://github.com/Longlongyu/hexo-theme-Cxo"><span>Cxo</span></a></p><i class="fa fa-user"> </i><span id="busuanzi_value_site_uv"></span><span> | </span><i class="fa fa-eye"> </i><span id="busuanzi_value_site_pv"></span></div></footer><!-- catelog--><!-- top--><i class="fa fa-arrow-up close" id="go-up" aria-hidden="true"></i></body></html>
+
+            本系列文章使用的Unity版本为2019.3.7f1
+          
+
+
+      ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2020/05/12/uielement-ru-men-2-uquery-jie-shao/" title="[UIElement入门]:2.UQuery介绍">     <img class="post_bg" data-src="/img/featureimages/1.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="[UIElement入门]:2.UQuery介绍"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/05/12/uielement-ru-men-2-uquery-jie-shao/" title="[UIElement入门]:2.UQuery介绍">[UIElement入门]:2.UQuery介绍</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-05-12 22:45:44"><i class="fa fa-calendar" aria-hidden="true"></i>2020-05-12</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/Unity/">Unity</a><i class="fa fa-angle-right" aria-hidden="true"></i><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/Unity/UIElement/">UIElement</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/UIElement/">UIElement</a></span></div><div class="content">
+            本系列文章介绍UIElement知识点，欢迎访问😉
+          
+
+
+
+            UIElement官方文档
+          
+
+
+            本系列文章使用的Unity版本为2019.3.7f1
+          
+
+
+      ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2020/05/11/uielement-ru-men-1-uxml-yuan-su-jie-shao/" title="[UIElement入门]:1.UXML元素介绍">     <img class="post_bg" data-src="/img/featureimages/16.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="[UIElement入门]:1.UXML元素介绍"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/05/11/uielement-ru-men-1-uxml-yuan-su-jie-shao/" title="[UIElement入门]:1.UXML元素介绍">[UIElement入门]:1.UXML元素介绍</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-05-11 08:17:10"><i class="fa fa-calendar" aria-hidden="true"></i>2020-05-11</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/Unity/">Unity</a><i class="fa fa-angle-right" aria-hidden="true"></i><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/Unity/UIElement/">UIElement</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/UIElement/">UIElement</a></span></div><div class="content">
+            本系列文章介绍UIElement知识点，欢迎访问😉
+          
+
+
+
+            UIElement官方文档
+          
+
+
+            本系列文章使用的Unity版本为2019.3.7f1
+          
+
+
+      ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2020/05/10/uielement-ru-men-0-uielement-jian-dan-jie-shao/" title="[UIElement入门]:0.UIElement EditorWindow简单介绍">     <img class="post_bg" data-src="/img/featureimages/11.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="[UIElement入门]:0.UIElement EditorWindow简单介绍"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/05/10/uielement-ru-men-0-uielement-jian-dan-jie-shao/" title="[UIElement入门]:0.UIElement EditorWindow简单介绍">[UIElement入门]:0.UIElement EditorWindow简单介绍</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-05-10 14:19:42"><i class="fa fa-calendar" aria-hidden="true"></i>2020-05-10</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/Unity/">Unity</a><i class="fa fa-angle-right" aria-hidden="true"></i><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/Unity/UIElement/">UIElement</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/UIElement/">UIElement</a></span></div><div class="content">
+            本系列文章介绍UIElement知识点，欢迎访问😉
+          
+
+
+
+            UIElement官方文档
+          
+
+
+            本系列文章使用的Unity版本为2019.3.7f1
+          
+
+
+      ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2020/05/05/unity-bian-ji-qi-tuo-zhan-zhi-san-shi-yi-huo-qu-playerprefs-suo-you-jian-zhi-dui/" title="Unity编辑器拓展之三十一:获取PlayerPrefs所有键值对">     <img class="post_bg" data-src="/img/featureimages/13.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Unity编辑器拓展之三十一:获取PlayerPrefs所有键值对"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/05/05/unity-bian-ji-qi-tuo-zhan-zhi-san-shi-yi-huo-qu-playerprefs-suo-you-jian-zhi-dui/" title="Unity编辑器拓展之三十一:获取PlayerPrefs所有键值对">Unity编辑器拓展之三十一:获取PlayerPrefs所有键值对</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-05-05 14:09:52"><i class="fa fa-calendar" aria-hidden="true"></i>2020-05-05</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/Unity/">Unity</a><i class="fa fa-angle-right" aria-hidden="true"></i><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/Unity/Unity%E7%BC%96%E8%BE%91%E5%99%A8%E6%8B%93%E5%B1%95/">Unity编辑器拓展</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/PlayerPrefs/">PlayerPrefs</a></span></div><div class="content">
+            本文介绍如何在Editor下获取PlayerPrefs所有键值对，欢迎访问😁
+          
+
+
+
+            本篇文章，如果有不懂，欢迎留言~click here!
+          
+
+
+            PlayerPrefs官方文档，请戳 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2020/05/02/unity-jie-ru-facebook-sheng-cheng-keyhash/" title="Unity接入Facebook生成keyhash">     <img class="post_bg" data-src="/img/featureimages/24.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Unity接入Facebook生成keyhash"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/05/02/unity-jie-ru-facebook-sheng-cheng-keyhash/" title="Unity接入Facebook生成keyhash">Unity接入Facebook生成keyhash</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-05-02 22:58:36"><i class="fa fa-calendar" aria-hidden="true"></i>2020-05-02</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/Unity/">Unity</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/Facebook-keyhash/">Facebook keyhash</a></span></div><div class="content">
+            记录如何为Unity工程接入Facebook SDK时生成keyhash，欢迎访问😋
+          
+
+
+
+            本篇文章，如果有不懂，欢迎留言~click here!
+          
+
+以下步骤在Facebook中为Unity应用程序生成K ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/9/">9</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-fw fa-chevron-right" aria-hidden="true"></i></a></div></nav></div><div class="aside_content" id="aside_content"><div class="card-widget card-info"><div class="card-content"><div class="card-info-avatar is-center"><img class="avatar-img" src="/img/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">JingFengJi</div><div class="author-info__description"></div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives"><div class="headline">文章</div><div class="length_num">82</div></a></div><div class="card-info-data-item is-center">      <a href="/tags"><div class="headline">标签</div><div class="length_num">64</div></a></div><div class="card-info-data-item is-center">     <a href="/categories"><div class="headline">分类</div><div class="length_num">17</div></a></div></div><div class="card-info-bookmark is-center"><a class="bookmark button--primary button--animated" id="bookmark-it" href="javascript:;" title="加入书签" target="_self"><i class="fa fa-bookmark" aria-hidden="true"></i><span>加入书签</span></a></div><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/JingFengJi" target="_blank" title="Github"><i class="fa fa-github" aria-hidden="true"></i></a><a class="social-icon" href="mailto:18872266310@163.com" target="_blank" title="Email"><i class="fa fa-envelope" aria-hidden="true"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a></div></div></div><div class="card-widget card-announcement"><div class="card-content"><div class="item-headline"><i class="fa fa-bullhorn card-announcement-animation" aria-hidden="true"></i><span>公告</span></div><div class="announcement_content">欢迎光临本站</div></div></div><div class="card-widget card-recent-post"><div class="card-content"><div class="item-headline"><i class="fa fa-history" aria-hidden="true"></i><span>最新文章</span></div><div class="aside-recent-item"><div class="aside-recent-post"><a href="/2020/07/30/unity-bian-ji-qi-tuo-zhan-zhi-san-shi-er-guan-yu-duo-xuan-zhong-preview-hui-zhi-tan-jiu/"><div class="aside-post-cover"><img class="aside-post-bg" data-src="/img/featureimages/24.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" title="Unity编辑器拓展之三十二:关于多选中Preview绘制探究" alt="Unity编辑器拓展之三十二:关于多选中Preview绘制探究"/></div><div class="aside-post-title"><div class="aside-post_title" href="/2020/07/30/unity-bian-ji-qi-tuo-zhan-zhi-san-shi-er-guan-yu-duo-xuan-zhong-preview-hui-zhi-tan-jiu/" title="Unity编辑器拓展之三十二:关于多选中Preview绘制探究">Unity编辑器拓展之三十二:关于多选中Preview绘制探究</div><time class="aside-post_meta post-meta__date" title="发表于 2020-07-30 21:50:11">2020-07-30</time></div></a></div><div class="aside-recent-post"><a href="/2020/07/20/gameframework-kuang-jia-yuan-ma-jie-du-er-setting/"><div class="aside-post-cover"><img class="aside-post-bg" data-src="/img/featureimages/2.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" title="GameFramework框架源码解读（二）：Setting" alt="GameFramework框架源码解读（二）：Setting"/></div><div class="aside-post-title"><div class="aside-post_title" href="/2020/07/20/gameframework-kuang-jia-yuan-ma-jie-du-er-setting/" title="GameFramework框架源码解读（二）：Setting">GameFramework框架源码解读（二）：Setting</div><time class="aside-post_meta post-meta__date" title="发表于 2020-07-20 22:23:51">2020-07-20</time></div></a></div><div class="aside-recent-post"><a href="/2020/05/17/uielement-ru-men-4-zi-ding-yi-yuan-su/"><div class="aside-post-cover"><img class="aside-post-bg" data-src="/img/featureimages/20.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" title="[UIElement入门]:4.自定义元素" alt="[UIElement入门]:4.自定义元素"/></div><div class="aside-post-title"><div class="aside-post_title" href="/2020/05/17/uielement-ru-men-4-zi-ding-yi-yuan-su/" title="[UIElement入门]:4.自定义元素">[UIElement入门]:4.自定义元素</div><time class="aside-post_meta post-meta__date" title="发表于 2020-05-17 14:00:19">2020-05-17</time></div></a></div><div class="aside-recent-post"><a href="/2020/05/13/uielement-ru-men-3-layout-engine/"><div class="aside-post-cover"><img class="aside-post-bg" data-src="/img/featureimages/10.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" title="[UIElement入门]:3.Layout Engine" alt="[UIElement入门]:3.Layout Engine"/></div><div class="aside-post-title"><div class="aside-post_title" href="/2020/05/13/uielement-ru-men-3-layout-engine/" title="[UIElement入门]:3.Layout Engine">[UIElement入门]:3.Layout Engine</div><time class="aside-post_meta post-meta__date" title="发表于 2020-05-13 22:02:35">2020-05-13</time></div></a></div><div class="aside-recent-post"><a href="/2020/05/12/uielement-ru-men-2-uquery-jie-shao/"><div class="aside-post-cover"><img class="aside-post-bg" data-src="/img/featureimages/1.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" title="[UIElement入门]:2.UQuery介绍" alt="[UIElement入门]:2.UQuery介绍"/></div><div class="aside-post-title"><div class="aside-post_title" href="/2020/05/12/uielement-ru-men-2-uquery-jie-shao/" title="[UIElement入门]:2.UQuery介绍">[UIElement入门]:2.UQuery介绍</div><time class="aside-post_meta post-meta__date" title="发表于 2020-05-12 22:45:44">2020-05-12</time></div></a></div></div></div></div><div class="card-widget card-categories"><div class="card-content"><div class="item-headline"><i class="fa fa-folder-open" aria-hidden="true"></i><span>分类</span></div><ul class="card-category-list">
+            <li class="card-category-list-item"><a class="card-category-list-link" href="/categories/Hexo/"><span class="card-category-list-name">Hexo</span><span class="card-category-list-count">1</span></a></li><ul class="card-category-list child"><li class="card-category-list-item"><a class="card-category-list-link" href="/categories/Hexo/Hexo-Theme-Butterfly/"><span class="card-category-list-name">Hexo-Theme-Butterfly</span><span class="card-category-list-count">1</span></a></li></ul><li class="card-category-list-item"><a class="card-category-list-link" href="/categories/Lua/"><span class="card-category-list-name">Lua</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item"><a class="card-category-list-link" href="/categories/Python/"><span class="card-category-list-name">Python</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item"><a class="card-category-list-link" href="/categories/Unity/"><span class="card-category-list-name">Unity</span><span class="card-category-list-count">75</span></a></li><ul class="card-category-list child"><li class="card-category-list-item"><a class="card-category-list-link" href="/categories/Unity/DOTween/"><span class="card-category-list-name">DOTween</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item"><a class="card-category-list-link" href="/categories/Unity/GameFramework%E6%A1%86%E6%9E%B6/"><span class="card-category-list-name">GameFramework框架</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item"><a class="card-category-list-link" href="/categories/Unity/SpriteAtlas/"><span class="card-category-list-name">SpriteAtlas</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item"><a class="card-category-list-link" href="/categories/Unity/UGUI/"><span class="card-category-list-name">UGUI</span><span class="card-category-list-count">15</span></a></li><li class="card-category-list-item"><a class="card-category-list-link" href="/categories/Unity/UIElement/"><span class="card-category-list-name">UIElement</span><span class="card-category-list-count">5</span></a></li><li class="card-category-list-item"><a class="card-category-list-link" href="/categories/Unity/Unity-Android/"><span class="card-category-list-name">Unity & Android</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item"><a class="card-category-list-link" href="/categories/Unity/Unity-Shader/"><span class="card-category-list-name">Unity Shader</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item"><a class="card-category-list-link" href="/categories/Unity/UnityTips/"><span class="card-category-list-name">UnityTips</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item"><a class="card-category-list-link" href="/categories/Unity/Unity%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E5%B0%8F%E6%8A%80%E5%B7%A7/"><span class="card-category-list-name">Unity每天一个小技巧</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item"><a class="card-category-list-link" href="/categories/Unity/Unity%E7%BC%96%E8%BE%91%E5%99%A8%E6%8B%93%E5%B1%95/"><span class="card-category-list-name">Unity编辑器拓展</span><span class="card-category-list-count">30</span></a></li><li class="card-category-list-item"><a class="card-category-list-link" href="/categories/Unity/%E6%B8%B8%E6%88%8F%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97/"><span class="card-category-list-name">游戏功能模块</span><span class="card-category-list-count">1</span></a></li></ul><li class="card-category-list-item"><a class="card-category-list-link" href="/categories/%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/"><span class="card-category-list-name">常用软件</span><span class="card-category-list-count">1</span></a></li>
+                       
+            </ul></div></div><div class="card-widget card-tags"><div class="card-content"><div class="item-headline"><i class="fa fa-tags" aria-hidden="true"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/3D-Touch/" style="font-size: 16px; color: #999">3D Touch</a> <a href="/tags/Button%E5%8F%8C%E5%87%BB%E4%B8%8E%E9%95%BF%E6%8C%89/" style="font-size: 16px; color: #999">Button双击与长按</a> <a href="/tags/CSV%E6%96%87%E4%BB%B6%E8%A7%A3%E6%9E%90%E4%BB%A3%E7%A0%81%E7%94%9F%E6%88%90%E5%B7%A5%E5%85%B7/" style="font-size: 16px; color: #999">CSV文件解析代码生成工具</a> <a href="/tags/ContentSizeFitter/" style="font-size: 16px; color: #999">ContentSizeFitter</a> <a href="/tags/DOTweenPath/" style="font-size: 16px; color: #999">DOTweenPath</a> <a href="/tags/Facebook-keyhash/" style="font-size: 16px; color: #999">Facebook keyhash</a> <a href="/tags/GameFramework%E6%A1%86%E6%9E%B6%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/" style="font-size: 22px; color: #99a9bf">GameFramework框架源码解读</a> <a href="/tags/GridLayoutGroup/" style="font-size: 16px; color: #999">GridLayoutGroup</a> <a href="/tags/Hierarchy/" style="font-size: 16px; color: #999">Hierarchy</a> <a href="/tags/HorizontalLayoutGroup/" style="font-size: 16px; color: #999">HorizontalLayoutGroup</a> <a href="/tags/MessageBox/" style="font-size: 16px; color: #999">MessageBox</a> <a href="/tags/NGUI-ComponentSelector%E5%A2%9E%E5%8A%A0%E6%90%9C%E7%B4%A2%E6%A1%86/" style="font-size: 16px; color: #999">NGUI ComponentSelector增加搜索框</a> <a href="/tags/NGUI%E6%89%B9%E9%87%8F%E6%9B%BF%E6%8D%A2%E5%9B%BE%E9%9B%86%E5%B7%A5%E5%85%B7/" style="font-size: 16px; color: #999">NGUI批量替换图集工具</a> <a href="/tags/NetworkReachability/" style="font-size: 16px; color: #999">NetworkReachability</a> <a href="/tags/Node-Editor/" style="font-size: 16px; color: #999">Node Editor</a> <a href="/tags/Outline/" style="font-size: 16px; color: #999">Outline</a> <a href="/tags/PlayerPrefs/" style="font-size: 16px; color: #999">PlayerPrefs</a> <a href="/tags/PreferencesWindow/" style="font-size: 22px; color: #99a9bf">PreferencesWindow</a> <a href="/tags/ReorderableList/" style="font-size: 22px; color: #99a9bf">ReorderableList</a> <a href="/tags/SceneDrag/" style="font-size: 16px; color: #999">SceneDrag</a></div></div></div><div class="card-widget card-archives"><div class="card-content"><div class="item-headline"><i class="fa fa-archive" aria-hidden="true"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/07/"><span class="card-archive-list-date">七月 2020</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/05/"><span class="card-archive-list-date">五月 2020</span><span class="card-archive-list-count">9</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/04/"><span class="card-archive-list-date">四月 2020</span><span class="card-archive-list-count">3</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/03/"><span class="card-archive-list-date">三月 2020</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2019/12/"><span class="card-archive-list-date">十二月 2019</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2019/10/"><span class="card-archive-list-date">十月 2019</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2019/09/"><span class="card-archive-list-date">九月 2019</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2019/08/"><span class="card-archive-list-date">八月 2019</span><span class="card-archive-list-count">3</span></a></li><li class="card-archive-list-item more is-center"><a class="card-archive-list-link-more" href="/archives">
+              <span>查看更多</span><i class="fa fa-angle-right" aria-hidden="true"></i></a></li></ul></div></div><div class="card-widget card-webinfo"><div class="card-content"><div class="item-headline"><i class="fa fa-line-chart" aria-hidden="true"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="webinfo-article-name">文章数目 :</div><div class="webinfo-article-count">82</div></div><div class="webinfo-item"><div class="webinfo-runtime-name">已运行时间 :</div><div class="webinfo-runtime-count" id="webinfo-runtime-count" start_date="3/20/2019 00:00:00">     </div></div><div class="webinfo-item"><div class="webinfo-site-wordcount-name">本站总字数 :</div><div class="webinfo-site-wordcount">64.1k</div></div><div class="webinfo-item">      <div class="webinfo-site-uv-name">本站访客数 :</div><div class="webinfo-site-uv-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="webinfo-site-name">本站总访问量 :</div><div class="webinfo-site-pv-count" id="busuanzi_value_site_pv"></div></div></div></div></div></div></main><footer id="footer" style="background-image: url(/img/banner/0.jpg)" data-type="photo"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2020 By JingFengJi</div><div class="framework-info"><span>驱动 </span><a href="https://hexo.io" target="_blank" rel="noopener"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 </span><a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank" rel="noopener"><span>Butterfly</span></a></div><div class="footer_custom_text">Hi, welcome to my <a href="http://www.jingfengji.tech/">blog</a>!</div></div></footer><script>var bg_index = Math.floor(Math.random() * 7);var res = 'background-image: url("/img/banner/' + bg_index + '.jpg");background-attachment: fixed;';document.getElementById('web_bg').style = res</script></div><section class="rightside" id="rightside"><div id="rightside-config-hide"><a class="translate_chn_to_cht" id="translateLink" href="javascript:translatePage();" title="简繁转换" target="_self">简</a></div><div id="rightside-config-show"><div id="rightside_config" title="设置"><i class="fa fa-cog" aria-hidden="true"></i></div><i class="fa fa-arrow-up" id="go-up" title="回到顶部" aria-hidden="true"></i></div></section><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a href="https://github.com/wzpan/hexo-generator-search" target="_blank" rel="noopener" style="color:#49B1F5;">hexo-generator-search</a>
+ <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fa fa-times"></i></span></div><div class="search-mask"></div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script id="ribbon_piao" mobile="false" src="/js/third-party/piao.js"></script><script async src="/js/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script><script src="/js/search/local-search.js"></script><script src="https://cdn.jsdelivr.net/npm/typed.js"></script><script>var subtitleEffect = true
+if (subtitleEffect) { 
+  var typed = new Typed("#subtitle", {
+    strings: '今日事&#44;今日毕,Never put off till tomorrow what you can do today'.split(","),
+    startDelay: 300,
+    typeSpeed: 150,
+    loop: false,
+    backSpeed: 50
+  })
+} else {
+  document.getElementById("subtitle").innerHTML = '今日事&#44;今日毕'
+}</script><script>(function(w,d, s, id) {w.webpushr=w.webpushr||function(){(w.webpushr.q=w.webpushr.q||[]).push(arguments)};var js, fjs = d.getElementsByTagName(s)[0];js = d.createElement(s); js.id = id;js.src = 'https://cdn.webpushr.com/app.min.js';fjs.parentNode.appendChild(js);}(window,document, 'script', 'webpushr-jssdk'));webpushr('init','BGrxc0vPoALvzHxkgS89T80UvkMlJkgJovvsNdJJS6Cs2-eEyUAVyWcUYs8YCHcUSwbIwI-QnTzHpVX4FLzyKBk');</script></body></html>
